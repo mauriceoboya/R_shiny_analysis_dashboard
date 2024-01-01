@@ -1,0 +1,12 @@
+name: sama_analysis_dashboard
+title: sama_analysis_dashboard
+username: oboyamaurice
+account: oboyamaurice
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10855927
+bundleId: 8094985
+url: https://oboyamaurice.shinyapps.io/sama_analysis_dashboard/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
