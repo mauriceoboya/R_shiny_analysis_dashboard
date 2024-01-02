@@ -42,3 +42,9 @@ This app uses the following R packages:
     DT: Interactive tables
     sodium: Password hashing
     tibble: Modern data frame
+
+## License
+
+This Shiny app is released under the MIT License.
+
+Feel free to customize and extend the app based on your specific requirements.
