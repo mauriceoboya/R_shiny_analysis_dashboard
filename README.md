@@ -31,3 +31,14 @@ install.packages(c("shiny", "shinyjs", "plotly", "DT", "sodium", "tibble"))
 - Log in using the provided credentials (super_admin or admin).
 - Choose a case study from the sidebar.
 - Explore the tabs for detailed visualizations and insights.
+
+## Credits
+
+This app uses the following R packages:
+
+    shiny: Web application framework
+    shinyjs: JavaScript interaction in Shiny apps
+    plotly: Interactive plots
+    DT: Interactive tables
+    sodium: Password hashing
+    tibble: Modern data frame
