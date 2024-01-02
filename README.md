@@ -25,3 +25,9 @@ To run this Shiny App, make sure you have the required R packages installed:
 ```
 install.packages(c("shiny", "shinyjs", "plotly", "DT", "sodium", "tibble"))
 ```
+
+## Usage
+- Launch the app by running the runApp function in R.
+- Log in using the provided credentials (super_admin or admin).
+- Choose a case study from the sidebar.
+- Explore the tabs for detailed visualizations and insights.
