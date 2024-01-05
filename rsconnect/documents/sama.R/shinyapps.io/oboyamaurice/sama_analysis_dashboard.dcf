@@ -5,7 +5,7 @@ account: oboyamaurice
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 10855927
-bundleId: 8097663
+bundleId: 8111355
 url: https://oboyamaurice.shinyapps.io/sama_analysis_dashboard/
 version: 1
 asMultiple: FALSE

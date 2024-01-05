@@ -94,12 +94,12 @@ server <- function(input, output, session) {
   }
   
   # Calculate the shortfall or surplus for each sub-project
-  case_study_2_data$Shortfall_Surplus <- case_study_2_data$Project_Required_Head_Count - case_study_2_data$Total_Available_Headcount
+  case_study_2_data$Shortfall_Surplus <- case_study_2_data$Total_Available_Headcount - case_study_2_data$Project_Required_Head_Count
   
   # Provide recommendations
-  case_study_2_data$Advice <- ifelse(case_study_2_data$Shortfall_Surplus < 0, 
-                                     "Allocate additional resources to meet the required headcount.",
-                                     "The available headcount is sufficient for the project requirements.")
+  case_study_2_data$Advice <- ifelse(case_study_2_data$Shortfall_Surplus >= 0, 
+                                     "The available headcount is sufficient for the project requirements.",
+                                     "Allocate additional resources to meet the required headcount.")
   
   output$main_content <- renderUI({
     if (logged_in()) {
